@@ -1,0 +1,38 @@
+.inputCont {
+  padding: 20px;
+  border:  1px solid rgba(128, 128, 128, 0.61);
+  width: 65%;
+  border-radius: 10px 10px 0px 0px;
+  display: flex; 
+  justify-content: space-between;
+}
+.todoListCont {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.61);
+  border-top: none;
+  width: 65%;
+  border-radius:  0px 0px 10px 10px;
+}
+.input-group, .todoInfo{
+  width: 52% !important;
+  
+}
+
+.btn-success, .btn-danger {
+  width: 13% !important;
+}
+
+.inputDate, .todoDate {
+  width: 30% !important;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.todoInfo ,.todoDate{
+  text-align: left;
+
+}
